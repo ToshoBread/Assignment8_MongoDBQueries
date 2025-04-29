@@ -1,6 +1,5 @@
-db.sm.insertMany([
-  {
-    storeID: "SM001",
+db.sm.insertOne({
+  storeID: "SM001",
     branchName: "SM Hyper Cainta",
     location: "Cainta Rizal",
     products: [
@@ -22,8 +21,9 @@ db.sm.insertMany([
         unitPrice: 44.45,
         stock: 30,
       },
-    ],
-  },
+});
+
+db.sm.insertMany([
   {
     storeID: "SM002",
     branchName: "SM Supermarket - Marikina",
