@@ -21,7 +21,7 @@ db.sm.insertOne({
         unitPrice: 44.45,
         stock: 30,
       },
-});
+]});
 
 db.sm.insertMany([
   {
